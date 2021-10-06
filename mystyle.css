@@ -1,0 +1,123 @@
+/* This is my first CSS file */ 
+body {
+  background-color: lightblue;
+  font-family: "Sofia", sans-serif;
+}
+
+h1 { 
+    margin: initial initial initial initial; 
+    padding: initial initial initial initial;
+    font-size: 5em; 
+    color: green;
+    text-decoration: overline;
+    text-align: left;
+    display: block;
+    position: relative;
+}
+h2 { 
+    font-size: 3ex; 
+    position: static;
+}
+h3 { 
+    font-size: 1ch; 
+    height: 10em;
+    width: 10em; 
+    max-height: 10em;
+    max-width: 10em;
+}
+h5, h6 {
+    font-family: helvetica;
+}
+@media (hover: hover) {
+  h1:hover {
+    background: yellow;
+  }
+}
+* {
+    scroll-behavior: smooth;
+}
+img[src] {
+    height: 50vh;
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.grid-container {
+  display: grid;
+   grid-column-start: 2;
+   grid-column-start: 6;
+   grid-row-start: 10;
+   grid-row-end: 10;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#testingNone {
+    display: none;
+}
+#testingHover:hover {
+    color: blue;
+}
+#testingActive:active {
+    color: pink;
+}
+p {
+    margin-top: initial; 
+    margin-bottom: initial; 
+    margin-right: initial; 
+    margin-left: initial; 
+
+    padding-left: initial;
+    padding-bottom: initial;
+    padding-right: initial;
+    padding-left: initial;
+
+    border-style: dotted;
+    border-color: red;
+    border-width: initial;
+    border-radius: initial;
+    font-size: 10mm; 
+}
+li { 
+    font-size: 15px
+}
+summary {
+    font-size: 20mm
+}
+
+div p {
+  background-color: yellow;
+}
+div > div {
+    color: purple;
+}
+
+ul ~ li {
+    background-color: royalblue;
+}
+
+img + p { 
+    background-color: peachpuff;
+}
+
+div.grid-item {
+    color:rgba(0, 0, 0, 0.8)
+}
+
+
+
+
